@@ -45,3 +45,13 @@ with open("cpm_input2.txt") as f:
         activities.append(tuple(map(int, line.split())))
 print(activities)
 critical_path = cpm(nodes, activities)
+
+# Sample Input:
+# 1 2 11
+# 1 3 3
+# 1 4 10
+# 4 5 3
+# 3 5 1
+# 2 6 2
+# 5 6 1
+# 6 7 1
